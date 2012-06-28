@@ -1017,9 +1017,9 @@ olwidget.EditableLayerSwitcher = OpenLayers.Class(OpenLayers.Control.LayerSwitch
             scope: layer
         });
         layer.setUndoButtonStates();
-        if (this.map.selectControl) {
+        /*if (this.map.selectControl) {
             this.map.selectControl.deactivate();
-        }
+        }*/
 
     },
     setChecked: function(layer) {
