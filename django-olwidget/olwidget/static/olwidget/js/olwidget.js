@@ -1013,9 +1013,9 @@ olwidget.EditableLayerSwitcher = OpenLayers.Class(OpenLayers.Control.LayerSwitch
         this.maximize.innerHTML = "Edit";
         this.minimize.innerHTML = "(-) Edit";
         this.currentlyEditing = null;
-        if (this.map.selectControl) {
+        /*if (this.map.selectControl) {
             this.map.selectControl.activate();
-        }
+        }*/
         this.map.removeControl(this.panel);
         this.setChecked(null);
     },
